@@ -21,6 +21,7 @@ import DashboardCard10 from '../partials/dashboard/DashboardCard10';
 import DashboardCard11 from '../partials/dashboard/DashboardCard11';
 import DashboardCard12 from '../partials/dashboard/DashboardCard12';
 import DashboardCard13 from '../partials/dashboard/DashboardCard13';
+import UserBehaviour from '../partials/dashboard/traffic/UserBehaviour';
 import Banner from '../partials/Banner';
 
 function Traffic() {
@@ -103,6 +104,8 @@ function Traffic() {
               <DashboardCard12 />
               {/* Card (Income/Expenses) */}
               <DashboardCard13 />
+              {/* User Behaviour (Holistics) */}
+              <UserBehaviour />
               
             </div>
 
