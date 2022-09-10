@@ -10,7 +10,7 @@ import { tailwindConfig, formatValue } from '../utils/Utils';
 
 Chart.register(LineController, LineElement, Filler, PointElement, LinearScale, TimeScale, Tooltip);
 
-function LineChart02({
+function LineChart03({
   data,
   width,
   height,
@@ -140,7 +140,7 @@ function LineChart02({
       <div className="px-5 py-3">
         <div className="flex flex-wrap justify-between items-end">
           <div className="flex items-start">
-            <div className="text-md font-bold text-slate-600 mr-2">Ranking</div>
+            {/* <div className="text-md font-bold text-slate-600 mr-2">Ranking</div> */}
             {/* <div className="text-sm font-semibold text-white px-1.5 bg-yellow-500 rounded-full">{perctChange}</div> */}
           </div>
           <div className="grow ml-2 mb-1">
@@ -156,4 +156,4 @@ function LineChart02({
   );
 }
 
-export default LineChart02;
+export default LineChart03;

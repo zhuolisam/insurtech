@@ -2,13 +2,10 @@ import React from 'react';
 
 function SEOPositionTracking() {
 
-
-
-
   return (
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Top Keywords</h2>
+        <h2 className="font-semibold text-slate-800">Keywords Driving Your Site</h2>
       </header>
       <div className="p-3">
 

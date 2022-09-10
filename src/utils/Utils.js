@@ -1,4 +1,6 @@
 import resolveConfig from 'tailwindcss/resolveConfig';
+import Papa from 'papaparse';
+
 
 export const tailwindConfig = () => {
   // Tailwind config
@@ -27,3 +29,18 @@ export const formatValue = (value) => Intl.NumberFormat('en-US', {
   maximumSignificantDigits: 3,
   notation: 'compact',
 }).format(value);
+
+export async function GetCsvData(path) {
+  const data = Papa.parse(await fetchCsv(path));
+  console.log(data);
+  return data;
+}
+
+async function fetchCsv(path) {
+  const response = await fetch(path);
+  const reader = response.body.getReader();
+  const result = await reader.read();
+  const decoder = new TextDecoder('utf-8');
+  const csv = await decoder.decode(result.value);
+  return csv;
+}
