@@ -22,7 +22,15 @@ import DashboardCard11 from '../partials/dashboard/DashboardCard11';
 import DashboardCard12 from '../partials/dashboard/DashboardCard12';
 import DashboardCard13 from '../partials/dashboard/DashboardCard13';
 import UserBehaviour from '../partials/dashboard/traffic/UserBehaviour';
+import ActivityEvent from '../partials/dashboard/traffic/ActivityEvent';
+import ActivityCategory from '../partials/dashboard/traffic/ActivityCategory';
+import PremiumPoints from '../partials/dashboard/traffic/PremiumPoints';
+import PopularRedemptions from '../partials/dashboard/traffic/PopularRedemptions';
+import PopularActivity from '../partials/dashboard/traffic/PopularActivity';
+import PaidVsPolicy from '../partials/dashboard/traffic/PaidVsPolicy';
 import Banner from '../partials/Banner';
+import AvgEarned from '../partials/dashboard/traffic/AvgEarned';
+import AvgCurrent from '../partials/dashboard/traffic/AvgCurrent';
 
 function Traffic() {
 
@@ -106,6 +114,22 @@ function Traffic() {
               <DashboardCard13 />
               {/* User Behaviour (Holistics) */}
               <UserBehaviour title='Activity by Customer Count (Excluded FinishGame & Login)'/>
+              {/* Event Category Breakdown by Customers (Holistics) */}
+              <ActivityCategory title='Event Category Breakdown by Customers'/>
+              {/* Activity Breakdown by Customers & Events (Holistics) */}
+              <ActivityEvent title='Activity & Event by Customer Count'/>
+              {/* Total Premium Paid & Points by Age (Holistics) */}
+              <PremiumPoints title='Total Premium Paid & Points by Age'/>
+              {/* Avg Gained Max Points */}
+              <AvgEarned title='Avg Max Points Earned'/>
+              {/* Avg Current Max Points */}
+              <AvgCurrent title='Avg CurrentMax Points'/>
+              {/* Popular Redemptions by Customer (Holistics) */}
+              <PopularRedemptions title='Popular Redemptions'/>
+              {/* Popular Activities by Age (Holistics) */}
+              <PopularActivity title='Popular Activities by Age'/>
+              {/* Total Premium Paid vs Policy Duration by Product Category & Age (Holistics) */}
+              <PaidVsPolicy title='Total Premium Paid vs Policy Duration by Product Category & Age'/>
               
             </div>
 
