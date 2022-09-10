@@ -13,6 +13,7 @@ import './charts/ChartjsConfig';
 import Dashboard from './pages/Dashboard';
 import Performance from './pages/Performance';
 import Referral from './pages/Referral';
+import Traffic from './pages/Traffic';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Dashboard />} />
+        <Route exact path="/" element={<Traffic />} />
          <Route exact path="/performance" element={<Performance />} />
         <Route exact path="/referral" element={<Referral />} />
       </Routes>

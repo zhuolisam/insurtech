@@ -34,7 +34,7 @@ function Header({
               </svg>
             </button>
             {/* Logo */}
-            <div>FWD</div>
+            <div>fwd.com.hk</div>
           </div>
 
           {/* Header: Right side */}

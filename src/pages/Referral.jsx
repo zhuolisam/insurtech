@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Sidebar from '../partials/Sidebar';
 import Header from '../partials/Header';
-import navBar from '../partials/navBar';
+import NavBar from '../partials/NavBar';
 import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 import DashboardAvatars from '../partials/dashboard/DashboardAvatars';
 import FilterButton from '../partials/actions/FilterButton';
@@ -43,8 +43,8 @@ function Referral() {
           <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
 
             {/* Welcome banner */}
-            <WelcomeBanner />
-            <navBar/>
+            {/* <WelcomeBanner /> */}
+            <NavBar/>
             {/* Dashboard actions */}
             <div className="sm:flex sm:justify-end sm:items-center mb-8">
 
