@@ -28,10 +28,10 @@ function NavBar({ sidebarOpen, setSidebarOpen }) {
             <span className="nav-link cursor-pointer active font-semibold">Traffic</span>
           </NavLink>
         </li>
-
+ 
         <li
           className={`px-4 py-2  duration-300 ease-out -mb-[1px] hover:text-slate-700
-          ${pathname === "/alerts" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
+          ${pathname === "/referral" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
         >
           <NavLink end to="/referral">
             <span className="nav-link cursor-pointer font-semibold hover:text-slate-700 duration-300 ease-out">Referrals</span>

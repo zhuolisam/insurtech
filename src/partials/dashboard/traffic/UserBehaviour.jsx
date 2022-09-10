@@ -1,45 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import EditMenu from '../../EditMenu';
+import React, { useState, useEffect } from 'react';
+import Info from '../../../utils/Info';
+import RealtimeChart from '../../../charts/RealtimeChart';
+import Image01 from "../../../images/activitybycustomercount.png";
 
 // Import utilities
 import { tailwindConfig, hexToRGB } from '../../../utils/Utils';
 
-function UserBehaviour({title,subtitle, keyNumber, perctChange}) {
+function UserBehaviour() {
+
+  // IMPORTANT:
+  // Code below is for demo purpose only, and it's not covered by support.
+  // If you need to replace dummy data with real data,
+  // refer to Chart.js documentation: https://www.chartjs.org/docs/latest
+
 
   return (
-    <div className="flex flex-col col-span-full sm:col-span-6 xl:col-span-12 bg-white shadow-sm rounded-md border border-slate-200">
-      <div className="px-5 py-5">
-        <header className="flex justify-between items-start mb-2">
-          {/* Icon */}
-          {/* <img src={Icon} width="32" height="32" alt="Icon 01" /> */}
-          {/* Menu button */}
-          <h2 className="text-base text-slate-500 mb-2">{title}</h2>
-          
-          <EditMenu className="relative inline-flex justify-self-end">
-            <li>
-              <Link className="font-medium text-sm text-slate-600 hover:text-slate-800 flex py-1 px-3" to="#0">Option 1</Link>
-            </li>
-            <li>
-              <Link className="font-medium text-sm text-slate-600 hover:text-slate-800 flex py-1 px-3" to="#0">Option 2</Link>
-            </li>
-            <li>
-              <Link className="font-medium text-sm text-rose-500 hover:text-rose-600 flex py-1 px-3" to="#0">Remove</Link>
-            </li>
-          </EditMenu>
-        </header>
-        {/* <div className="text-xs font-semibold text-slate-400 uppercase mb-1">{subtitle}}</div> */}
-        
-        
-      </div>
-      <div>
-        <img src={"../../../images/activitybycustomercount.png"} className="w-full" alt="asd"/>
-      </div>
-      {/* Chart built with Chart.js 3 */}
-      {/* <div className="grow"> */}
-        {/* Change the height attribute to adjust the chart height */}
-        {/* <LineChart data={chartData} width={389} height={128} /> */}
-      {/* </div> */}
+    <div className="flex flex-col col-span-full sm:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
+      <header className="px-5 py-4 border-b border-slate-100 flex items-center">
+        <h2 className="font-semibold text-slate-800">Real Time Value</h2>
+        <Info className="ml-2" containerClassName="min-w-44">
+          <div className="text-sm text-center">Built with <a className="underline" href="https://www.chartjs.org/" target="_blank" rel="noreferrer">Chart.js</a></div>
+        </Info>
+      </header>
+      <div className="flex grow justify-center">
+          <img src={Image01} className="w-[70%]" alt="asd" />
+        </div>
     </div>
   );
 }

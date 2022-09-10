@@ -105,7 +105,7 @@ function Traffic() {
               {/* Card (Income/Expenses) */}
               <DashboardCard13 />
               {/* User Behaviour (Holistics) */}
-              <UserBehaviour />
+              <UserBehaviour title='Activity by Customer Count (Excluded FinishGame & Login)'/>
               
             </div>
 

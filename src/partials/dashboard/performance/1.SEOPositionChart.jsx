@@ -60,13 +60,13 @@ function SEOPositionChart() {
         data: [
           11, 7, 1, 8, 10, 11, 10,
         ],
-        borderColor: tailwindConfig().theme.colors.green[500],
+        borderColor: tailwindConfig().theme.colors.orange[500],
         fill: false,
         borderWidth: 2,
         tension: 0,
         pointRadius: 0,
         pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.green[500],
+        pointBackgroundColor: tailwindConfig().theme.colors.orange[500],
       },
     ],
   };
