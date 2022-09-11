@@ -1,80 +1,65 @@
-# Free Tailwind dashboard template
+[![Allsight](src\images\allsight.png)](https://allsight.vercel.app/)
 
-![Mosaic TailwindCSS template preview](https://user-images.githubusercontent.com/2683512/115404502-ad322d80-a1ed-11eb-91c0-1aa79b0949f0.png)
+# All-In-One, All-You-Need.
 
-**Mosaic Lite** is a responsive dashboard template built on top of TailwindCSS and fully coded in React. It comes with several pre-coded charts (built with Chart.js 3) and widgets, and it's a great starting for anyone who wants to create a user interface for SaaS products, administrator dashboards, modern web apps, and more.
+[Allsight](https://allsight.vercel.app/) is a one-stop prescriptive analytics dashboard that unleashes your website's potential to:
+- Get more customers,
+- Get customers to buy more products, and
+- Get customers to refer more customers!
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+# Page Performance
+![Page Performance Tab](src\images\performance.png)
+## Get More Customers!
+Our Page Performance tab tells you everything you need to know on how to get more customers into your website! <br>
+<li>Know exactly what are the trending keywords in insurance-related searches! 🔥</li>
+<li>Get suggestions for essential keywords to have in your product pages, as well as comparisons against your competitors! 💪</li> 
+<li>Figure out specifically what you can improve about your website's performance! 💯</li>
+<br>
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
+### See what happens in this *behind the scenes video* of our technology to get SEO data! <br>
+[![Allsight SEO Scraper](src\images\allsightthumbnail.jpg)](https://www.youtube.com/watch?v=l2k4eF6ufEQ)
 
-## Live demo
+# User Behaviour
+![User Behaviour Tab](src\images\traffic.png)
 
-Check the live demo here 👉️ [https://mosaic.cruip.com/](https://mosaic.cruip.com/)
 
-## Mosaic Pro
+## Get Customers to Buy More!
 
-[![Mosaic Pro](https://user-images.githubusercontent.com/2683512/151177026-3d063355-976d-4fdb-a5ed-9c1501c58af2.png)](https://cruip.com/mosaic/)
+Understanding your customers is the key to boost sales. The User Behaviour tab provides you with user behaviour data - allowing you to track all of your website's user activity!
+<li>Understand user behaviour via our User Behaviour Heatmap, Trending Pages! 👀</li>
+<li>Take a look into Popular Activities & Categories, Breakdowns by Customer Demographic, and Total Premium Paid vs Policy Duration! 👬</li>
+<li>Insights & suggestions based on specific metrics! 🔍</li>
+<br>
 
-## Design files
+# Referrals
+![Referral Tab](src\images\referral.png)
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3sigqHe
+## Get Customers to Refer More Customers!
 
-## Table of contents
+Referrals are one of the main factors influencing a potential customer's insurance buying decision. Keep track of your referral programmes' performance and the quality of referees via:
+<li>Customer-to-Referrer Ratio 👍</li>
+<li>Referrer-to-Referee Ratio 👍</li>
+<li>Referee Cohort Analysis 👍</li>
+<br>
 
-* [Usage](#usage)
-  * [Project setup](#project-setup)
-  * [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
-  * [Compiles and minifies for production](#compiles-and-minifies-for-production)
-  * [Customize configuration](#customize-configuration)
-* [Support notes](#support-notes)            
-* [Credits](#credits)
-* [Terms and License](#terms-and-license)
-* [About Us](#about-us)
-* [Stay in the loop](#stay-in-the-loop)
+## Project setup
 
-## Usage
+Allsight is hosted online here: <br>
+https://allsight.vercel.app/
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
-
-### Project setup
+Alternatively, you may setup the project on your machine by cloning this repository and running the following commands:
 ```
 npm install
 ```
-
-#### Compiles and hot-reloads for development
 ```
 npm run dev
 ```
-
-#### Compiles and minifies for production
-```
-npm run build
-```
-
-#### Customize configuration
-See [Configuration Reference](https://vitejs.dev/guide/).
-
-### Support notes
-We are shipping our templates with a very basic React configuration to let you quickly get into the development process, but we don't discourage you from using any other configuration or framework built on the top of React. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
-
-## Credits
-
-- [Nucleo](https://nucleoapp.com/)
-
-## Terms and License
-
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2020 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
+<br>
 
 ## About Us
+<img src="src\images\dan.jpeg"  width="250" height="300">
+<img src="src\images\sam.jpeg"  width="300" height="300">
 
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+We're Dan & Sam! Daniel is currently a Data Analyst in DoctorOnCall, and Sam is an Intern in DoctorOnCall. We have worked together on various Data Analytics projects, spearheading the company's business decision making with prescriptive and descriptive analyses and write-ups based on facts and data. 
 
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+We are honoured and excited to join the FWD Hackathon and had fun brainstorming our solution! Dan & Sam conveys a million thanks!
