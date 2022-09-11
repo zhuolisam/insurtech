@@ -1,4 +1,4 @@
-[![Allsight](src\images\allsight.png)](https://allsight.vercel.app/)
+[![Allsight](insurtech\src\images\allsight.png)](https://allsight.vercel.app/)
 
 # All-In-One, All-You-Need.
 
