@@ -25,9 +25,21 @@ function Heatmap() {
           </div>
         </Info>
       </header>
-      <div className="flex p-5">See where your customers are clicking on a page</div>
-      <div className="flex justify-center px-5">
-        <img src={HeatmapImage} className="" alt="Activity by Event Customer Count Chart" />
+
+      <div className="pl-2">
+        {/* desc */}
+        <div className="flex p-5">See where your customers are clicking on a page</div>
+        {/* img */}
+        <div className="flex justify-center px-4">
+          <img src={HeatmapImage} className="" alt="Activity by Event Customer Count Chart" />
+        </div>
+        {/* suggest */}
+        <div className="text-lg font-bold mt-4 px-6 underline">Suggestions</div>
+        <ul className="text-sm mt-2 pb-6 px-6">
+          <li className="flex list-disc">1. Low traffic to Corporate tab - consider repositioning it.</li>
+          <li className="flex list-disc">2. Consider reducing length of product typewriting.</li>
+          <li className="flex list-disc">3. Increase size of input boxes.</li>
+        </ul>
       </div>
     </div>
   );

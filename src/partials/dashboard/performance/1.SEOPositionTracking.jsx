@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function SEOPositionTracking() {
-
   return (
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Keywords Driving Your Site</h2>
+        <h2 className="font-semibold text-slate-800">Your Top Performing Keywords</h2>
       </header>
       <div className="p-3">
+        <h2 className="ml-2 mb-4 text-slate-500">Customers find you with these keywords!</h2>
 
         {/* Table */}
         <div className="overflow-x-auto">
@@ -42,8 +42,8 @@ function SEOPositionTracking() {
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">1  
-                  <span className='text-slate-400'>  0</span>
+                  <div className="text-center">
+                    1<span className="text-slate-400"> 0</span>
                   </div>
                 </td>
                 {/* <td className="p-2">
@@ -64,8 +64,8 @@ function SEOPositionTracking() {
                   </div>
                 </td>
                 <td className="p-2">
-                <div className="text-center">2  
-                  <span className='text-red-500'>  &#8595;1</span>
+                  <div className="text-center">
+                    2<span className="text-red-500"> &#8595;1</span>
                   </div>
                 </td>
                 {/* <td className="p-2">
@@ -82,13 +82,12 @@ function SEOPositionTracking() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-
                     <div className="text-slate-800">omicron 病徵</div>
                   </div>
                 </td>
                 <td className="p-2">
-                <div className="text-center">3  
-                  <span className='text-red-500'>  &#8595;1</span>
+                  <div className="text-center">
+                    3<span className="text-red-500"> &#8595;1</span>
                   </div>
                 </td>
                 {/* <td className="p-2">
@@ -109,8 +108,9 @@ function SEOPositionTracking() {
                   </div>
                 </td>
                 <td className="p-2">
-                <div className="text-center">10  
-                  <span className='text-green-500'>  &#8593;1</span>
+                  <div className="text-center">
+                    10
+                    <span className="text-green-500"> &#8593;1</span>
                   </div>
                 </td>
                 {/* <td className="p-2">
@@ -125,7 +125,6 @@ function SEOPositionTracking() {
               </tr>
             </tbody>
           </table>
-
         </div>
       </div>
     </div>

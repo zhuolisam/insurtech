@@ -95,8 +95,8 @@ function Performance() {
               {/* fwd self SEO ranking */}
               <SEOPositionTracking />
               {/* fwd self SEO improvement */}
-              <SEOTargetKeyword />
               <SEOImprovement />
+              {/* <SEOTargetKeyword /> */}
               <div className="col-span-12">Page Speed Performance</div>
               <PageSpeedOverall title="Overall score" keyNumber="270ms" perctChange="&#8595;19.1%" color="green" />
               <PageSpeed title="Frontend" keyNumber="510ms" Image={ImageLCP} perctChange="&#8595;1.4%" color="green" tooltip="User perceived load speed when main content is loaded, also known as Largest Contentful Paint (LCP)"/>

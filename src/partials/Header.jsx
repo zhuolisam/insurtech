@@ -39,7 +39,7 @@ function Header({ sidebarOpen, setSidebarOpen }) {
 
           {/* Header: Right side */}
           <div className="flex items-center">
-          <div className="ml-3 ">fwd.com.hk</div>
+          <div className="ml-3 bg-gray-200 bg-opacity-30 rounded-full px-4 py-1 cursor-pointer hover:bg-opacity-50">fwd.com.hk</div>
 
             <button
               className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ml-3 ${searchModalOpen && "bg-slate-200"}`}

@@ -27,7 +27,8 @@ function LineChart01({
       data: data,
       options: {
         chartArea: {
-          backgroundColor: tailwindConfig().theme.colors.slate[50],
+          // backgroundColor: tailwindConfig().theme.colors.slate[],
+          backgroundColor: 'transparent',
         },
         layout: {
           padding: 20,

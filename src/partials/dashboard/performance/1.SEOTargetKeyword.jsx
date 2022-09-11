@@ -6,10 +6,10 @@ function SEOTargetKeyword() {
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex justify-between items-center">
         <div className="flex gap-3 items-center">
-        <h2 className="font-semibold text-slate-800">Keywords You Want to Boost</h2>
-        <Info>
-          <p className="text-xs text-slate-600w-20">Add the keywords you want to boost in search results.</p>
-        </Info>
+          <h2 className="font-semibold text-slate-800">Keywords You Want to Boost</h2>
+          <Info containerClassName="min-w-44">
+            <p className="text-xs text-slate-600w-20">Add the keywords you want to boost in search results</p>
+          </Info>
         </div>
         <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white">
           <svg className="w-2 h-2 fill-current opacity-50 shrink-0" viewBox="0 0 16 16">
@@ -20,6 +20,7 @@ function SEOTargetKeyword() {
       </header>
 
       <div className="p-3">
+        <h2 className="ml-2 mb-4 text-slate-500">See how your site ranks with your target keyword</h2>
         {/* Table */}
         <div className="overflow-x-auto">
           <table className="table-auto w-full">
@@ -104,9 +105,7 @@ function SEOTargetKeyword() {
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">
-                    75
-                  </div>
+                  <div className="text-center">75</div>
                 </td>
 
                 <td className="p-2">
@@ -124,9 +123,7 @@ function SEOTargetKeyword() {
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">
-                    183
-                  </div>
+                  <div className="text-center">183</div>
                 </td>
 
                 <td className="p-2">

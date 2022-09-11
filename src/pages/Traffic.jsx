@@ -96,10 +96,10 @@ function Traffic() {
               <Session title={"Sessions"} subtitle={""} keyNumber={"56.3K"} perctChange={"10.3%"}/>
               <Session title={"Pageviews"} subtitle={""} keyNumber={"72.1K"} perctChange={"1.6%"}/>
               <Session title={"Session duration"} subtitle={""} keyNumber={"2m 41s"} perctChange={"5.6%"}/>
-              <TopCountries/>
-              <TopDevices/>
               <PageViewCountTable/>
               <Goal/>
+              <TopCountries/>
+              <TopDevices/>
               <SalesFunnel/>
               <Heatmap/>
               <div className="col-span-12 mt-4">FWD Max Analytics</div>
