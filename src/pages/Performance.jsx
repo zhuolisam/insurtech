@@ -28,7 +28,7 @@ import SEOImprovement from "../partials/dashboard/performance/1.SEOImprovement";
 import PageSpeed from "../partials/dashboard/performance/2.PageSpeed";
 import PageSpeedOverall from "../partials/dashboard/performance/2.PageSpeedOverall";
 import PageSpeedImprovement from "../partials/dashboard/performance/2.PageSpeedImprovement";
-
+import Footer from "../partials/Footer";
 
 import Banner from "../partials/Banner";
 
@@ -82,12 +82,13 @@ function Performance() {
               {/* <SEOTargetKeyword /> */}
               <div className="col-span-12">Page Speed Performance</div>
               <PageSpeedOverall title="Overall score" keyNumber="270ms" perctChange="&#8595;19.1%" color="green" />
-              <PageSpeed title="Frontend" keyNumber="510ms" Image={ImageLCP} perctChange="&#8595;1.4%" color="green" tooltip="User perceived load speed when main content is loaded, also known as Largest Contentful Paint (LCP)"/>
-              <PageSpeed title="Backend" keyNumber="600ms" Image={ImageTTFB} perctChange="&#8593;0.1%" color="red" tooltip="Page load time attributed to the backend, also known as Time To First Byte(TTFB)"/>
-              <PageSpeedImprovement/>
+              <PageSpeed title="Frontend" keyNumber="510ms" Image={ImageLCP} perctChange="&#8595;1.4%" color="green" tooltip="User perceived load speed when main content is loaded, also known as Largest Contentful Paint (LCP)" />
+              <PageSpeed title="Backend" keyNumber="600ms" Image={ImageTTFB} perctChange="&#8593;0.1%" color="red" tooltip="Page load time attributed to the backend, also known as Time To First Byte(TTFB)" />
+              <PageSpeedImprovement />
             </div>
           </div>
         </main>
+        <Footer />
       </div>
     </div>
   );
