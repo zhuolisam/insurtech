@@ -5,7 +5,7 @@ import Header from "../partials/Header";
 import NavBar from "../partials/NavBar";
 import WelcomeBanner from "../partials/dashboard/WelcomeBanner";
 import DashboardAvatars from "../partials/dashboard/DashboardAvatars";
-import FilterButton from "../partials/actions/FilterButton";
+import FilterMoreButton from "../partials/actions/FilterMoreButton";
 import Datepicker from "../partials/actions/Datepicker";
 import DashboardCard00 from "../partials/dashboard/DashboardCard00";
 import DashboardCard01 from "../partials/dashboard/DashboardCard01";
@@ -53,7 +53,7 @@ function Referral() {
               {/* Right: Actions */}
               <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
                 {/* Filter button */}
-                <FilterButton />
+                <FilterMoreButton />
                 {/* Datepicker built with flatpickr */}
                 <Datepicker />
                 {/* Add view button */}

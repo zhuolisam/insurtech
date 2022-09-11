@@ -1,8 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import Transition from "../../utils/Transition";
 
-function FilterButton() {
-  const option = ["Referral Code", "Facebook", "Rewards", "Article", "Lucky Draw"];
+function FilterCustomButton({option}) {
+
+
+
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -53,7 +55,7 @@ function FilterButton() {
           <div className="text-xs font-semibold text-slate-400 uppercase pt-1.5 pb-2 px-4">Filters</div>
 
           <ul className="mb-4">
-            {option.map((item, index) => (
+            {option.map((item,index) => (
               <li className="py-1 px-3">
                 <label className="flex items-center">
                   <input type="checkbox" className="form-checkbox" />
@@ -81,4 +83,4 @@ function FilterButton() {
   );
 }
 
-export default FilterButton;
+export default FilterCustomButton;

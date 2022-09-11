@@ -5,7 +5,7 @@ import Header from '../partials/Header';
 import NavBar from '../partials/NavBar';
 import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 import DashboardAvatars from '../partials/dashboard/DashboardAvatars';
-import FilterButton from '../partials/actions/FilterButton';
+import FilterMoreButton from '../partials/actions/FilterMoreButton';
 import Datepicker from '../partials/actions/Datepicker';
 import DashboardCard00 from '../partials/dashboard/DashboardCard00';
 import DashboardCard01 from '../partials/dashboard/DashboardCard01';
@@ -73,7 +73,7 @@ function Traffic() {
               {/* Right: Actions */}
               <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
                 {/* Filter button */}
-                <FilterButton />
+                <FilterMoreButton />
                 {/* Datepicker built with flatpickr */}
                 <Datepicker />
                 {/* Add view button */}
@@ -102,36 +102,7 @@ function Traffic() {
               <TopDevices/>
               <SalesFunnel/>
               <Heatmap/>
-              <div className="col-span-12 mt-4">FWD Max Analytics</div>
-              {/* Line chart (Acme Plus) */}
-              {/* <DashboardCard01 />
-              <DashboardCard01 />
-              <DashboardCard01 /> */}
-              {/* Line chart (Acme Advanced) */}
-              {/* <DashboardCard02 /> */}
-              {/* Line chart (Acme Professional) */}
-              {/* <DashboardCard03 /> */}
-              {/* Bar chart (Direct vs Indirect) */}
-              {/* <DashboardCard04 /> */}
-              {/* Line chart (Real Time Value) */}
-              {/* <DashboardCard05 /> */}
-              {/* Doughnut chart (Top Countries) */}
-              {/* <DashboardCard06 /> */}
-              {/* Table (Top Channels) */}
-              {/* <DashboardCard07 /> */}
-              {/* Line chart (Sales Over Time) */}
-              {/* <DashboardCard08 /> */}
-              {/* Stacked bar chart (Sales VS Refunds) */}
-              {/* <DashboardCard09 /> */}
-              {/* Card (Customers) */}
-              {/* <DashboardCard10 /> */}
-              {/* Card (Reasons for Refunds) */}
-              {/* <DashboardCard11 /> */}
-              {/* Card (Recent Activity) */}
-              {/* <DashboardCard12 /> */}
-              {/* Card (Income/Expenses) */}
-              {/* <DashboardCard13 /> */}
-              {/* User Behaviour (Holistics) */}
+              <div className="col-span-12 mt-4">FWD Max Data Analysis</div>
               <UserBehaviour title='Activity by Customer Count (Excluded FinishGame & Login)'/>
               {/* Event Category Breakdown by Customers (Holistics) */}
               <ActivityCategory title='Event Category Breakdown by Customers'/>

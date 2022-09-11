@@ -3,6 +3,7 @@ import SearchModal from "./header/SearchModal";
 import Notifications from "./header/Notifications";
 import Help from "./header/Help";
 import UserMenu from "./header/UserMenu";
+import { NavLink } from "react-router-dom";
 
 function Header({ sidebarOpen, setSidebarOpen }) {
   const [searchModalOpen, setSearchModalOpen] = useState(false);
@@ -31,10 +32,11 @@ function Header({ sidebarOpen, setSidebarOpen }) {
               </svg>
             </button>
             {/* Logo */}
-            <div className="font-extrabold text-xl">
+            <div className="font-extrabold text-xl cursor-pointer">
+            <NavLink end to="/performance">
               All<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Sight</span>
+            </NavLink>
             </div>
-
           </div>
 
           {/* Header: Right side */}

@@ -7,15 +7,15 @@ function SEOImprovement() {
   // const results = GetCsvData("./data/ahrefs.csv");
   // console.log(results);
 
-
   return (
     <div className="col-span-full xl:col-span-12 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex items-center gap-3 justify-between pr-16">
         <div className="flex gap-4 items-center">
-          <h2 className="font-semibold text-slate-800">How to Improve Your SEO?</h2>
+          <h2 className="font-semibold text-slate-800">How to Improve Your SEO Rankings?</h2>
           <Info containerClassName="min-w-44">
             <p className="text-xs text-slate-600w-20">
-              See how do we get these suggested keywords for you using &#32; <a className="underline" href="https://www.youtube.com/watch?v=l2k4eF6ufEQ" target="_blank" rel="noreferrer">
+              See how do we get these suggested keywords for you using &#32;{" "}
+              <a className="underline" href="https://www.youtube.com/watch?v=l2k4eF6ufEQ" target="_blank" rel="noreferrer">
                 web robots
               </a>
             </p>
@@ -287,6 +287,9 @@ function SEOImprovement() {
             </tbody>
           </table>
         </div>
+        {/* <div className="w-full flex justify-end pt-6 px-6">
+          <div>watch how these keywords are extracted </div>
+        </div> */}
       </div>
     </div>
   );

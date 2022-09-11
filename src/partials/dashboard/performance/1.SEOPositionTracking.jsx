@@ -1,10 +1,21 @@
 import React from "react";
+import FilterCustomButton from "../../actions/FilterCustomButton";
+import Info from "../../../utils/Info";
 
 function SEOPositionTracking() {
   return (
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
-      <header className="px-5 py-4 border-b border-slate-100">
+      <header className="px-5 py-4 border-b border-slate-100 flex items-center justify-between">
+        <div className="flex items-center">
         <h2 className="font-semibold text-slate-800">Your Top Performing Keywords</h2>
+          <Info className="ml-2" containerClassName="min-w-72">
+            <div className="text-xs text-center">
+              Keyword Rankings tells how credible your website is. Higher website credibility leads to higher user's preference.
+            </div>
+          </Info>
+        </div>
+
+        <FilterCustomButton option={["day", "week", "month", "year"]} />
       </header>
       <div className="p-3">
         <h2 className="ml-2 mb-4 text-slate-500">Customers find you with these keywords!</h2>
