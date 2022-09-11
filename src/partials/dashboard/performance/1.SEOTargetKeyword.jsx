@@ -1,10 +1,16 @@
 import React from "react";
+import Info from "../../../utils/Info";
 
 function SEOTargetKeyword() {
   return (
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex justify-between items-center">
-        <h2 className="font-semibold text-slate-800">Target Product Keyword</h2>
+        <div className="flex gap-3 items-center">
+        <h2 className="font-semibold text-slate-800">Keywords You Want to Boost</h2>
+        <Info>
+          <p className="text-xs text-slate-600w-20">Add the keywords you want to boost in search results.</p>
+        </Info>
+        </div>
         <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white">
           <svg className="w-2 h-2 fill-current opacity-50 shrink-0" viewBox="0 0 16 16">
             <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z" />

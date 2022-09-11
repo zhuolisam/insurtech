@@ -21,6 +21,7 @@ import DashboardCard10 from '../partials/dashboard/DashboardCard10';
 import DashboardCard11 from '../partials/dashboard/DashboardCard11';
 import DashboardCard12 from '../partials/dashboard/DashboardCard12';
 import DashboardCard13 from '../partials/dashboard/DashboardCard13';
+import Session from '../partials/dashboard/traffic/Session';
 import UserBehaviour from '../partials/dashboard/traffic/UserBehaviour';
 import ActivityEvent from '../partials/dashboard/traffic/ActivityEvent';
 import ActivityCategory from '../partials/dashboard/traffic/ActivityCategory';
@@ -28,6 +29,13 @@ import PremiumPoints from '../partials/dashboard/traffic/PremiumPoints';
 import PopularRedemptions from '../partials/dashboard/traffic/PopularRedemptions';
 import PopularActivity from '../partials/dashboard/traffic/PopularActivity';
 import PaidVsPolicy from '../partials/dashboard/traffic/PaidVsPolicy';
+import PageViewCountTable from '../partials/dashboard/traffic/PageViewCountTable';
+import Goal from '../partials/dashboard/traffic/Goal';
+import TopCountries from '../partials/dashboard/traffic/TopCountries';
+import TopDevices from '../partials/dashboard/traffic/TopDevices';
+import SalesFunnel from '../partials/dashboard/traffic/SalesFunnel';
+import Heatmap from '../partials/dashboard/traffic/Heatmap';
+
 import Banner from '../partials/Banner';
 import AvgEarned from '../partials/dashboard/traffic/AvgEarned';
 import AvgCurrent from '../partials/dashboard/traffic/AvgCurrent';
@@ -81,9 +89,20 @@ function Traffic() {
 
             {/* Cards */}
             <div className="grid grid-cols-12 gap-6">
-              <DashboardCard00 title={"Sessions"} subtitle={""} keyNumber={"56.3K"} perctChange={"10.3%"}/>
+              {/* <DashboardCard00 title={"Sessions"} subtitle={""} keyNumber={"56.3K"} perctChange={"10.3%"}/>
               <DashboardCard00 title={"Pageviews"} subtitle={""} keyNumber={"72.1K"} perctChange={"1.6%"}/>
-              <DashboardCard00 title={"Session duration"} subtitle={""} keyNumber={"2m 41s"} perctChange={"5.6%"}/>
+              <DashboardCard00 title={"Session duration"} subtitle={""} keyNumber={"2m 41s"} perctChange={"5.6%"}/> */}
+              <div className="col-span-12">Traffic Analytics</div>
+              <Session title={"Sessions"} subtitle={""} keyNumber={"56.3K"} perctChange={"10.3%"}/>
+              <Session title={"Pageviews"} subtitle={""} keyNumber={"72.1K"} perctChange={"1.6%"}/>
+              <Session title={"Session duration"} subtitle={""} keyNumber={"2m 41s"} perctChange={"5.6%"}/>
+              <TopCountries/>
+              <TopDevices/>
+              <PageViewCountTable/>
+              <Goal/>
+              <SalesFunnel/>
+              <Heatmap/>
+              <div className="col-span-12 mt-4">FWD Max Analytics</div>
               {/* Line chart (Acme Plus) */}
               {/* <DashboardCard01 />
               <DashboardCard01 />
@@ -93,25 +112,25 @@ function Traffic() {
               {/* Line chart (Acme Professional) */}
               {/* <DashboardCard03 /> */}
               {/* Bar chart (Direct vs Indirect) */}
-              <DashboardCard04 />
+              {/* <DashboardCard04 /> */}
               {/* Line chart (Real Time Value) */}
-              <DashboardCard05 />
+              {/* <DashboardCard05 /> */}
               {/* Doughnut chart (Top Countries) */}
-              <DashboardCard06 />
+              {/* <DashboardCard06 /> */}
               {/* Table (Top Channels) */}
-              <DashboardCard07 />
+              {/* <DashboardCard07 /> */}
               {/* Line chart (Sales Over Time) */}
-              <DashboardCard08 />
+              {/* <DashboardCard08 /> */}
               {/* Stacked bar chart (Sales VS Refunds) */}
-              <DashboardCard09 />
+              {/* <DashboardCard09 /> */}
               {/* Card (Customers) */}
-              <DashboardCard10 />
+              {/* <DashboardCard10 /> */}
               {/* Card (Reasons for Refunds) */}
-              <DashboardCard11 />
+              {/* <DashboardCard11 /> */}
               {/* Card (Recent Activity) */}
-              <DashboardCard12 />
+              {/* <DashboardCard12 /> */}
               {/* Card (Income/Expenses) */}
-              <DashboardCard13 />
+              {/* <DashboardCard13 /> */}
               {/* User Behaviour (Holistics) */}
               <UserBehaviour title='Activity by Customer Count (Excluded FinishGame & Login)'/>
               {/* Event Category Breakdown by Customers (Holistics) */}

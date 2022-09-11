@@ -31,6 +31,7 @@ function App() {
         <Route exact path="/" element={<Traffic />} />
          <Route exact path="/performance" element={<Performance />} />
         <Route exact path="/referral" element={<Referral />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
       </Routes>
     </>
   );

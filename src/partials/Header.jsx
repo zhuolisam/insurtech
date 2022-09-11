@@ -1,30 +1,27 @@
-import React, { useState } from 'react';
-import SearchModal from './header/SearchModal';
-import Notifications from './header/Notifications';
-import Help from './header/Help';
-import UserMenu from './header/UserMenu';
+import React, { useState } from "react";
+import SearchModal from "./header/SearchModal";
+import Notifications from "./header/Notifications";
+import Help from "./header/Help";
+import UserMenu from "./header/UserMenu";
 
-function Header({
-  sidebarOpen,
-  setSidebarOpen
-}) {
-
-  const [searchModalOpen, setSearchModalOpen] = useState(false)
+function Header({ sidebarOpen, setSidebarOpen }) {
+  const [searchModalOpen, setSearchModalOpen] = useState(false);
 
   return (
     <header className="sticky top-0 bg-[white] border-b border-slate-200 z-30">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 -mb-px">
-
           {/* Header: Left side */}
-          <div className="flex">
-
+          <div className="flex pl-2 lg:pl-4 items-center">
             {/* Hamburger button */}
             <button
               className="text-slate-500 hover:text-slate-600 lg:hidden"
               aria-controls="sidebar"
               aria-expanded={sidebarOpen}
-              onClick={(e) => { e.stopPropagation(); setSidebarOpen(!sidebarOpen); }}
+              onClick={(e) => {
+                e.stopPropagation();
+                setSidebarOpen(!sidebarOpen);
+              }}
             >
               <span className="sr-only">Open sidebar</span>
               <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -34,15 +31,22 @@ function Header({
               </svg>
             </button>
             {/* Logo */}
-            <div>fwd.com.hk</div>
+            <div className="font-extrabold text-xl">
+              All<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Sight</span>
+            </div>
+
           </div>
 
           {/* Header: Right side */}
           <div className="flex items-center">
+          <div className="ml-3 ">fwd.com.hk</div>
 
             <button
-              className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ml-3 ${searchModalOpen && 'bg-slate-200'}`}
-              onClick={(e) => { e.stopPropagation(); setSearchModalOpen(true); }}
+              className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ml-3 ${searchModalOpen && "bg-slate-200"}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                setSearchModalOpen(true);
+              }}
               aria-controls="search-modal"
             >
               <span className="sr-only">Search</span>
@@ -57,9 +61,7 @@ function Header({
             {/*  Divider */}
             {/* <hr className="w-px h-6 bg-slate-200 mx-3" /> */}
             {/* <UserMenu /> */}
-
           </div>
-
         </div>
       </div>
     </header>

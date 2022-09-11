@@ -21,9 +21,9 @@ function SEOPositionTracking() {
                 <th className="p-2">
                   <div className="font-semibold text-center">Position</div>
                 </th>
-                <th className="p-2">
+                {/* <th className="p-2">
                   <div className="font-semibold text-center">Traffic</div>
-                </th>
+                </th> */}
                 <th className="p-2">
                   <div className="font-semibold text-center">Volume</div>
                 </th>
@@ -46,9 +46,9 @@ function SEOPositionTracking() {
                   <span className='text-slate-400'>  0</span>
                   </div>
                 </td>
-                <td className="p-2">
+                {/* <td className="p-2">
                   <div className="text-center text-green-500">20.22%</div>
-                </td>
+                </td> */}
                 <td className="p-2">
                   <div className="text-center">18,100</div>
                 </td>
@@ -68,9 +68,9 @@ function SEOPositionTracking() {
                   <span className='text-red-500'>  &#8595;1</span>
                   </div>
                 </td>
-                <td className="p-2">
+                {/* <td className="p-2">
                   <div className="text-center text-green-500">5.31%</div>
-                </td>
+                </td> */}
                 <td className="p-2">
                   <div className="text-center">8,100</div>
                 </td>
@@ -91,9 +91,9 @@ function SEOPositionTracking() {
                   <span className='text-red-500'>  &#8595;1</span>
                   </div>
                 </td>
-                <td className="p-2">
+                {/* <td className="p-2">
                   <div className="text-center text-green-500">5.09%</div>
-                </td>
+                </td> */}
                 <td className="p-2">
                   <div className="text-center">40,500</div>
                 </td>
@@ -113,9 +113,9 @@ function SEOPositionTracking() {
                   <span className='text-green-500'>  &#8593;1</span>
                   </div>
                 </td>
-                <td className="p-2">
+                {/* <td className="p-2">
                   <div className="text-center text-green-500">4.91%</div>
-                </td>
+                </td> */}
                 <td className="p-2">
                   <div className="text-center">4,400</div>
                 </td>

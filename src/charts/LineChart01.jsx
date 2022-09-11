@@ -13,7 +13,8 @@ Chart.register(LineController, LineElement, Filler, PointElement, LinearScale, T
 function LineChart01({
   data,
   width,
-  height
+  height,
+  format=false,
 }) {
 
   const canvas = useRef(null);
@@ -49,7 +50,8 @@ function LineChart01({
           tooltip: {
             callbacks: {
               title: () => false, // Disable tooltip title
-              label: (context) => formatValue(context.parsed.y),
+              label: (context) => 
+              format? formatValue(context.parsed.y):context.parsed.y,
             },
           },
           legend: {
