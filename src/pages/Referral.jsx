@@ -21,7 +21,7 @@ import DashboardCard10 from "../partials/dashboard/DashboardCard10";
 import DashboardCard11 from "../partials/dashboard/DashboardCard11";
 import DashboardCard12 from "../partials/dashboard/DashboardCard12";
 import DashboardCard13 from "../partials/dashboard/DashboardCard13";
-import TotalReferral from "../partials/dashboard/referral/Totalreferral";
+import TotalReferral from "../partials/dashboard/referral/TotalReferral";
 import CustomerReferrerRatio from "../partials/dashboard/referral/CustomerReferrerRatio";
 import ReferrerRefereerRatio from "../partials/dashboard/referral/ReferrerRefereerRatio";
 import RetentionRate from "../partials/dashboard/referral/RetentionRate";
