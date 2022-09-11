@@ -21,10 +21,10 @@ function NavBar({ sidebarOpen, setSidebarOpen }) {
         </li>
         <li
           className={`px-4 py-2  duration-200 ease-out -mb-[1px] hover:text-slate-700
-          ${pathname === "/" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
+          ${pathname === "/behaviour" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
           onClick={() => setSidebarOpen(!sidebarOpen)}
         >
-          <NavLink end to="/">
+          <NavLink end to="/behaviour">
             <span className="nav-link cursor-pointer active font-semibold ">User Behaviour</span>
           </NavLink>
         </li>
