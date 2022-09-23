@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 
 import Sidebar from '../partials/Sidebar';
 import Header from '../partials/Header';
-import NavBar from '../partials/NavBar';
 import WelcomeBanner from '../partials/dashboard/WelcomeBanner';
 import DashboardAvatars from '../partials/dashboard/DashboardAvatars';
 import FilterButton from '../partials/actions/FilterButton';
 import Datepicker from '../partials/actions/Datepicker';
-import DashboardCard00 from '../partials/dashboard/DashboardCard00';
 import DashboardCard01 from '../partials/dashboard/DashboardCard01';
 import DashboardCard02 from '../partials/dashboard/DashboardCard02';
 import DashboardCard03 from '../partials/dashboard/DashboardCard03';
@@ -31,7 +29,7 @@ function Dashboard() {
     <div className="flex h-screen overflow-hidden">
 
       {/* Sidebar */}
-      {/* <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} /> */}
+      <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
       {/* Content area */}
       <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
@@ -43,15 +41,13 @@ function Dashboard() {
           <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
 
             {/* Welcome banner */}
-            {/* <WelcomeBanner /> */}
-            {/* navBar */}
-            <NavBar/>
+            <WelcomeBanner />
 
             {/* Dashboard actions */}
-            <div className="sm:flex sm:justify-end sm:items-center mb-8">
+            <div className="sm:flex sm:justify-between sm:items-center mb-8">
 
               {/* Left: Avatars */}
-              {/* <DashboardAvatars /> */}
+              <DashboardAvatars />
 
               {/* Right: Actions */}
               <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
@@ -72,17 +68,13 @@ function Dashboard() {
 
             {/* Cards */}
             <div className="grid grid-cols-12 gap-6">
-              <DashboardCard00 title={"Sessions"} subtitle={""} keyNumber={"56.3K"} perctChange={"10.3%"}/>
-              <DashboardCard00 title={"Pageviews"} subtitle={""} keyNumber={"72.1K"} perctChange={"1.6%"}/>
-              <DashboardCard00 title={"Session duration"} subtitle={""} keyNumber={"2m 41s"} perctChange={"5.6%"}/>
+
               {/* Line chart (Acme Plus) */}
               <DashboardCard01 />
-              <DashboardCard01 />
-              <DashboardCard01 />
               {/* Line chart (Acme Advanced) */}
-              {/* <DashboardCard02 /> */}
+              <DashboardCard02 />
               {/* Line chart (Acme Professional) */}
-              {/* <DashboardCard03 /> */}
+              <DashboardCard03 />
               {/* Bar chart (Direct vs Indirect) */}
               <DashboardCard04 />
               {/* Line chart (Real Time Value) */}

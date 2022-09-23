@@ -16,7 +16,7 @@ function NavBar({ sidebarOpen, setSidebarOpen }) {
           ${pathname === "/performance" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
         >
           <NavLink end to="/performance">
-            <span className="nav-link cursor-pointer font-semibold ">Page Performance</span>
+            <span className="nav-link cursor-pointer font-semibold ">Site Performance</span>
           </NavLink>
         </li>
         <li
