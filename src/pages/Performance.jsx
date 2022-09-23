@@ -5,7 +5,7 @@ import Header from "../partials/Header";
 import NavBar from "../partials/NavBar";
 import WelcomeBanner from "../partials/dashboard/WelcomeBanner";
 import DashboardAvatars from "../partials/dashboard/DashboardAvatars";
-import FilterButton from "../partials/actions/FilterButton";
+import FilterMoreButton from "../partials/actions/FilterMoreButton";
 import Datepicker from "../partials/actions/Datepicker";
 import DashboardCard00 from "../partials/dashboard/DashboardCard00";
 import DashboardCard01 from "../partials/dashboard/DashboardCard01";
@@ -24,11 +24,12 @@ import DashboardCard13 from "../partials/dashboard/DashboardCard13";
 import SEOPositionChart from "../partials/dashboard/performance/1.SEOPositionChart";
 import SEOPositionTracking from "../partials/dashboard/performance/1.SEOPositionTracking";
 import SEOTargetKeyword from "../partials/dashboard/performance/1.SEOTargetKeyword";
+import SEOKeywordBoost from "../partials/dashboard/performance/1.SEOKeywordBoost";
 import SEOImprovement from "../partials/dashboard/performance/1.SEOImprovement";
 import PageSpeed from "../partials/dashboard/performance/2.PageSpeed";
 import PageSpeedOverall from "../partials/dashboard/performance/2.PageSpeedOverall";
 import PageSpeedImprovement from "../partials/dashboard/performance/2.PageSpeedImprovement";
-
+import Footer from "../partials/Footer";
 
 import Banner from "../partials/Banner";
 
@@ -56,11 +57,10 @@ function Performance() {
             <div className="sm:flex sm:justify-end sm:items-center mb-8">
               {/* Left: Avatars */}
               {/* <DashboardAvatars /> */}
-
               {/* Right: Actions */}
               <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
                 {/* Filter button */}
-                <FilterButton />
+                <FilterMoreButton />
                 {/* Datepicker built with flatpickr */}
                 <Datepicker />
                 {/* Add view button */}
@@ -74,55 +74,27 @@ function Performance() {
             </div>
             {/* Cards */}
             <div className="grid grid-cols-12 gap-6">
-              {/* <DashboardCard00 title={"Sessions"} subtitle={""} keyNumber={"56.3K"} perctChange={"10.3%"}/> */}
-              {/* <DashboardCard00 title={"Pageviews"} subtitle={""} keyNumber={"72.1K"} perctChange={"1.6%"}/> */}
-              {/* <DashboardCard00 title={"Session duration"} subtitle={""} keyNumber={"2m 41s"} perctChange={"5.6%"}/> */}
-              {/* Line chart (Acme Plus) */}
-              {/* <DashboardCard01 /> */}
-              {/* <DashboardCard01 /> */}
-              {/* <DashboardCard01 /> */}
-              {/* Line chart (Acme Advanced) */}
-              {/* <DashboardCard02 /> */}
-              {/* Line chart (Acme Professional) */}
-              {/* <DashboardCard03 /> */}
-              {/* Bar chart (Direct vs Indirect) */}
-              {/* <DashboardCard04 /> */}
-              {/* Line chart (Real Time Value) */}
-              {/* <DashboardCard05 /> */}
-
               <div className="col-span-12">SEO Keyword Performance</div>
-              <SEOPositionChart />
+              {/* <SEOPositionChart /> */}
               {/* fwd self SEO ranking */}
               <SEOPositionTracking />
+
               {/* fwd self SEO improvement */}
               <SEOImprovement />
+
+              {/* fwd and other competitor */}
+              {/* <SEOKeywordBoost /> */}
+
               {/* <SEOTargetKeyword /> */}
               <div className="col-span-12">Page Speed Performance</div>
               <PageSpeedOverall title="Overall score" keyNumber="270ms" perctChange="&#8595;19.1%" color="green" />
-              <PageSpeed title="Frontend" keyNumber="510ms" Image={ImageLCP} perctChange="&#8595;1.4%" color="green" tooltip="User perceived load speed when main content is loaded, also known as Largest Contentful Paint (LCP)"/>
-              <PageSpeed title="Backend" keyNumber="600ms" Image={ImageTTFB} perctChange="&#8593;0.1%" color="red" tooltip="Page load time attributed to the backend, also known as Time To First Byte(TTFB)"/>
-              <PageSpeedImprovement/>
-              {/* Doughnut chart (Top Countries) */}
-              {/* <DashboardCard06 /> */}
-              {/* Table (Top Channels) */}
-              {/* <DashboardCard07 /> */}
-              {/* Line chart (Sales Over Time) */}
-              {/* <DashboardCard08 /> */}
-              {/* Stacked bar chart (Sales VS Refunds) */}
-              {/* <DashboardCard09 /> */}
-              {/* Card (Customers) */}
-              {/* <DashboardCard10 /> */}
-              {/* Card (Reasons for Refunds) */}
-              {/* <DashboardCard11 /> */}
-              {/* Card (Recent Activity) */}
-              {/* <DashboardCard12 /> */}
-              {/* Card (Income/Expenses) */}
-              {/* <DashboardCard13 /> */}
+              <PageSpeed title="Frontend" keyNumber="510ms" Image={ImageLCP} perctChange="&#8595;1.4%" color="green" tooltip="User perceived load speed when main content is loaded, also known as Largest Contentful Paint (LCP)" />
+              <PageSpeed title="Backend" keyNumber="600ms" Image={ImageTTFB} perctChange="&#8593;0.1%" color="red" tooltip="Page load time attributed to the backend, also known as Time To First Byte(TTFB)" />
+              <PageSpeedImprovement />
             </div>
           </div>
         </main>
-
-        {/* <Banner /> */}
+        <Footer />
       </div>
     </div>
   );

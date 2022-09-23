@@ -75,7 +75,7 @@ function PageSpeed({ title, keyNumber, perctChange, Image, color }) {
           {/* Menu button */}
           <h2 className="text-base text-slate-500 mb-2">{title}</h2>
           <Info className="ml-2 mt-1" containerClassName="min-w-44">
-            <div className="text-sm text-center">Largest Contentful Paint marks the time at which the largest text or image is painted.</div>
+            <div className="text-xs text-center">Overall Score out of 100, calculated using various metrics with <a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=9660&TTI=20250&SI=15339&TBT=1068&LCP=15660&CLS=0.2&FMP=11835&device=mobile&version=9.6.6" target="_blank" className="underline">Lighthouse API</a> </div>
           </Info>
         </header>
         {/* <div className="text-xs font-semibold text-slate-400 uppercase mb-1">{subtitle}}</div> */}

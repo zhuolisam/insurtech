@@ -75,7 +75,7 @@ function PageSpeed({ title, keyNumber, perctChange, Image, color, tooltip }) {
           {/* Menu button */}
           <h2 className="text-base text-slate-500 mb-2">{title}</h2>
           <Info className="ml-2 mt-1" containerClassName="min-w-44">
-            <div className="text-sm text-center">{tooltip}</div>
+            <div className="text-xs text-center">{tooltip}</div>
           </Info>
         </header>
         {/* <div className="text-xs font-semibold text-slate-400 uppercase mb-1">{subtitle}}</div> */}

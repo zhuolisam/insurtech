@@ -17,11 +17,8 @@ function SalesFunnel() {
       <header className="px-5 py-4 border-b border-slate-100 flex items-center">
         <h2 className="font-semibold text-slate-800">Sales Funnel</h2>
         <Info className="ml-2" containerClassName="min-w-44">
-          <div className="text-sm text-center">
-            Built with{" "}
-            <a className="underline" href="https://www.chartjs.org/" target="_blank" rel="noreferrer">
-              Chart.js
-            </a>
+          <div className="text-xs text-center">
+            The sales funnel is a representation of the sales process. It helps you understand customer's preference to your products and room for improvement. 
           </div>
         </Info>
       </header>

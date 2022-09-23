@@ -17,9 +17,9 @@ function AvgEarned() {
     <div className="flex flex-col col-span-full sm:col-span-3 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex items-center">
         <h2 className="font-semibold text-slate-800">Avg Max Points Gained</h2>
-        <Info className="ml-2" containerClassName="min-w-44">
+        {/* <Info className="ml-2" containerClassName="min-w-44">
           <div className="text-sm text-center">Built with <a className="underline" href="https://www.chartjs.org/" target="_blank" rel="noreferrer">Chart.js</a></div>
-        </Info>
+        </Info> */}
       </header>
       <div className="flex flex-col grow justify-start py-12">
           <h1 className="text-6xl font-bold text-center">4,730.03</h1>
