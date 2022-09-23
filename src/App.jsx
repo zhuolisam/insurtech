@@ -25,8 +25,8 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route exact path="/" element={<Landing /> } /> */}
-        <Route path="/" element={<Navigate replace to="/performance" />} />
+        <Route exact path="/" element={<Landing /> } />
+        {/* <Route path="/" element={<Navigate replace to="/performance" />} /> */}
         <Route exact path="/performance" element={<Performance />} />
         <Route exact path="/behaviour" element={<Traffic />} />
         <Route exact path="/referral" element={<Referral />} />

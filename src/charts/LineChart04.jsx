@@ -8,7 +8,7 @@ import { tailwindConfig, formatValue } from "../utils/Utils";
 
 Chart.register(LineController, LineElement, Filler, PointElement, LinearScale, TimeScale, Tooltip);
 
-function LineChart04({ className = '',cdata, width, height, format = true, title, perctChange = "-22%" }) {
+function LineChart04({ className = '',  cdata, width, height, format = true, title, perctChange = "-22%" }) {
   const canvas = useRef(null);
   const legend = useRef(null);
 
@@ -129,7 +129,7 @@ function LineChart04({ className = '',cdata, width, height, format = true, title
       <div className={className}>
         <div className="px-5 py-3">
           <div className="flex flex-wrap justify-between items-end">
-            <div className="flex items-start">
+            <div className="flex items-center">
               <h3 className="text-sm font-semibold text-slate-400 mr-2">keyword: </h3>
               <div className="text-lg font-bold text-slate-600 mr-2">{title}</div>
               {/* <div className="text-sm font-semibold text-white px-1.5 bg-yellow-500 rounded-full">{perctChange}</div> */}
@@ -141,7 +141,7 @@ function LineChart04({ className = '',cdata, width, height, format = true, title
         </div>
         {/* Chart built with Chart.js 3 */}
         <div className="grow">
-          <canvas ref={canvas} width={width} height={height}></canvas>
+          <canvas ref={canvas} width={width}  height={height}></canvas>
         </div>
       </div>
     </React.Fragment>

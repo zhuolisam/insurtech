@@ -346,20 +346,20 @@ function SEOImprovement() {
       <div className="p-3">
         <div className="w-full flex justify-end items-center pb-2">
           {/* <h2 className="ml-2 mb-4 text-slate-500">Check your position of your target keywords!</h2> */}
-          <div className="flex gap-3">
-            <input name="toSearch" type="text" placeholder="keyword" value={keyword} onChange={handleChange} className="rounded-md border-2 border-indigo-500 font-normal text-sm leading-5 shadow-sm px-2 focus:border-indigo-600 max-w-[10rem]"/>
-            <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white" onClick={handleSearchKeyword}>
+          <div className="flex">
+            <input name="toSearch" type="text" placeholder="keyword" value={keyword} onChange={handleChange} className="rounded-tl-md rounded-bl-md border-2 border-indigo-500 font-normal text-sm leading-5 shadow-sm px-2 focus:border-indigo-600 max-w-[10rem]"/>
+            <button className="btn rounded-tl-none rounded-bl-none bg-indigo-500 hover:bg-indigo-600 text-white" onClick={handleSearchKeyword}>
               <svg className="w-2 h-2 fill-current opacity-50 shrink-0" viewBox="0 0 16 16">
                 <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z" />
               </svg>
-              <span className="hidden xs:block ml-2">Search keyword</span>
+              <span className="hidden xs:block ml-2">Search</span>
             </button>
           </div>
         </div>
 
         {/*Chart and Table  */}
         {/* Chart */}
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
           <LineChart className="flex-1" cdata={chartData} width={595} height={248} format={false} title={titleKeyword} perctChange="" />
           {/* Table */}
           <div className="overflow-x-auto flex-1">
@@ -423,7 +423,7 @@ function SEOImprovement() {
         </div>
 
         {/* Table */}
-        <div className="overflow-x-auto text-ellipsis">
+        <div className="overflow-x-auto text-ellipsis px-2">
           <table className="table-auto w-full">
             {/* Table header */}
             <thead className="text-xs uppercase text-slate-400 bg-slate-50 rounded-sm">

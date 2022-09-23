@@ -127,7 +127,7 @@ function LineChart03({ className = '', data, width, height, format = true, title
   return (
     <React.Fragment>
       <div className={className}>
-        <div className="px-5 py-3">
+        <div className="px-5 py-1">
           <div className="flex flex-wrap justify-between items-end">
             <div className="flex items-start">
               {/* <div className="text-md font-bold text-slate-600 mr-2">Ranking</div> */}

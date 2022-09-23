@@ -75,7 +75,7 @@ function Performance() {
             {/* Cards */}
             <div className="grid grid-cols-12 gap-6">
               <div className="col-span-12">SEO Keyword Performance</div>
-              <SEOPositionChart />
+              {/* <SEOPositionChart /> */}
               {/* fwd self SEO ranking */}
               <SEOPositionTracking />
 
@@ -83,7 +83,7 @@ function Performance() {
               <SEOImprovement />
 
               {/* fwd and other competitor */}
-              <SEOKeywordBoost />
+              {/* <SEOKeywordBoost /> */}
 
               {/* <SEOTargetKeyword /> */}
               <div className="col-span-12">Page Speed Performance</div>
