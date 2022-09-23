@@ -16,7 +16,7 @@ function NavBar({ sidebarOpen, setSidebarOpen }) {
           ${pathname === "/performance" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
         >
           <NavLink end to="/performance">
-            <span className="nav-link cursor-pointer font-semibold ">Acquire User</span>
+            <span className="nav-link cursor-pointer font-semibold ">Acquire Customers</span>
           </NavLink>
         </li>
         <li
@@ -25,7 +25,7 @@ function NavBar({ sidebarOpen, setSidebarOpen }) {
           onClick={() => setSidebarOpen(!sidebarOpen)}
         >
           <NavLink end to="/behaviour">
-            <span className="nav-link cursor-pointer active font-semibold ">Convert User</span>
+            <span className="nav-link cursor-pointer active font-semibold ">Convert Customers</span>
           </NavLink>
         </li>
  
@@ -34,7 +34,7 @@ function NavBar({ sidebarOpen, setSidebarOpen }) {
           ${pathname === "/referral" && "border-b-[2px] border-b-indigo-500 text-slate-700"}`}
         >
           <NavLink end to="/referral">
-            <span className="nav-link cursor-pointer font-semibold ">Generate Referral</span>
+            <span className="nav-link cursor-pointer font-semibold ">Generate Referrals</span>
           </NavLink>
         </li>
       </ul>

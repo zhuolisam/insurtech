@@ -24,7 +24,7 @@ function SEOPositionTracking() {
       },
       // Blue line
       {
-        label: "omicron病徵",
+        label: "omicron",
         data: [3, 5, 4, 3, 4, 4, 2],
         borderColor: tailwindConfig().theme.colors.blue[400],
         fill: false,
@@ -36,7 +36,7 @@ function SEOPositionTracking() {
       },
       // Green line
       {
-        label: "omicron 病徵",
+        label: "insurance policy",
         data: [2, 4, 3, 4, 3, 2, 3],
         borderColor: tailwindConfig().theme.colors.green[500],
         fill: false,
@@ -47,7 +47,7 @@ function SEOPositionTracking() {
         pointBackgroundColor: tailwindConfig().theme.colors.green[500],
       },
       {
-        label: "保險",
+        label: "healthcare",
         data: [11, 7, 1, 8, 10, 11, 10],
         borderColor: tailwindConfig().theme.colors.orange[500],
         fill: false,
@@ -126,7 +126,7 @@ function SEOPositionTracking() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800">omicron病徵</div>
+                    <div className="text-slate-800">omicron</div>
                   </div>
                 </td>
                 <td className="p-2">
@@ -148,7 +148,7 @@ function SEOPositionTracking() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800">omicron 病徵</div>
+                    <div className="text-slate-800">insurance policy</div>
                   </div>
                 </td>
                 <td className="p-2">
@@ -170,7 +170,7 @@ function SEOPositionTracking() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800">保險</div>
+                    <div className="text-slate-800">healthcare</div>
                   </div>
                 </td>
                 <td className="p-2">

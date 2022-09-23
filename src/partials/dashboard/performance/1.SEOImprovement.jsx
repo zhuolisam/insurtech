@@ -63,6 +63,17 @@ function SEOImprovement() {
             pointHoverRadius: 3,
             pointBackgroundColor: tailwindConfig().theme.colors.orange[500],
           },
+          {
+            label: "保險hh",
+            data: [8, 7, 3, 4, 19, 14, 22],
+            borderColor: tailwindConfig().theme.colors.yellow[500],
+            fill: false,
+            borderWidth: 2,
+            tension: 0,
+            pointRadius: 0,
+            pointHoverRadius: 3,
+            pointBackgroundColor: tailwindConfig().theme.colors.yellow[500],
+          },
         ],
       },
     },
@@ -132,11 +143,6 @@ function SEOImprovement() {
       keyword: "healthcare",
       position: "75",
       volume: "35",
-    },
-    {
-      keyword: "covid",
-      position: "20",
-      volume: "40",
     },
   ];
 

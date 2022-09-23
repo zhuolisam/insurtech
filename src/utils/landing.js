@@ -2,7 +2,6 @@
   const doc = document
   const rootEl = doc.documentElement
   const body = doc.body
-  const lightSwitch = doc.getElementById('lights-toggle')
   /* global ScrollReveal */
   const sr = window.sr = ScrollReveal()
 
@@ -28,24 +27,24 @@
     window.addEventListener('load', revealAnimations)
   }
 
-  // Light switcher
-  if (lightSwitch) {
-    window.addEventListener('load', checkLights)
-    lightSwitch.addEventListener('change', checkLights)
-  }
+  // // Light switcher
+  // if (lightSwitch) {
+  //   window.addEventListener('load', checkLights)
+  //   lightSwitch.addEventListener('change', checkLights)
+  // }
 
-  function checkLights () {
-    let labelText = lightSwitch.parentNode.querySelector('.label-text')
-    if (lightSwitch.checked) {
-      body.classList.remove('lights-off')
-      if (labelText) {
-        labelText.innerHTML = 'dark'
-      }
-    } else {
-      body.classList.add('lights-off')
-      if (labelText) {
-        labelText.innerHTML = 'light'
-      }
-    }
-  }
+  // function checkLights () {
+  //   let labelText = lightSwitch.parentNode.querySelector('.label-text')
+  //   if (lightSwitch.checked) {
+  //     body.classList.remove('lights-off')
+  //     if (labelText) {
+  //       labelText.innerHTML = 'dark'
+  //     }
+  //   } else {
+  //     body.classList.add('lights-off')
+  //     if (labelText) {
+  //       labelText.innerHTML = 'light'
+  //     }
+  //   }
+  // }
 }())
