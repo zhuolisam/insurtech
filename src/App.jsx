@@ -7,9 +7,11 @@ import "./charts/ChartjsConfig";
 
 // Import pages
 import Dashboard from "./pages/Dashboard";
+import Landing from "./pages/Landing";
 import Performance from "./pages/Performance";
 import Referral from "./pages/Referral";
 import Traffic from "./pages/Traffic";
+
 
 function App() {
   const location = useLocation();
@@ -23,7 +25,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Navigate replace to="/performance" />} />
+        <Route exact path="/" element={<Landing /> } />
+        {/* <Route path="/" element={<Navigate replace to="/performance" />} /> */}
         <Route exact path="/performance" element={<Performance />} />
         <Route exact path="/behaviour" element={<Traffic />} />
         <Route exact path="/referral" element={<Referral />} />

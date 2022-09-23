@@ -9,7 +9,7 @@ import 'chartjs-adapter-moment';
 import { tailwindConfig, formatValue } from '../utils/Utils';
 
 Chart.register(LineController, LineElement, Filler, PointElement, LinearScale, TimeScale, Tooltip);
-
+// Normal Line Chart, with date label
 function LineChart02({
   data,
   width,

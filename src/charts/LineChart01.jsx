@@ -9,7 +9,7 @@ import 'chartjs-adapter-moment';
 import { tailwindConfig, formatValue } from '../utils/Utils';
 
 Chart.register(LineController, LineElement, Filler, PointElement, LinearScale, TimeScale, Tooltip);
-
+// Line Chart with the shadow below the line
 function LineChart01({
   data,
   width,

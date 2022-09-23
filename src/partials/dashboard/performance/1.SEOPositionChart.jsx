@@ -72,7 +72,7 @@ function SEOPositionChart() {
           </Info>
         </div>
 
-        <FilterCustomButton option={["day", "week", "month", "year"]} />
+        {/* <FilterCustomButton option={["day", "week", "month", "year"]} /> */}
       </header>
       {/* Chart built with Chart.js 3 */}
       {/* Change the height attribute to adjust the chart height */}

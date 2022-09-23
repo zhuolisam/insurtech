@@ -40,7 +40,7 @@ function PageViewCountTable() {
                 <tr key={index}>
                   <td className="p-2">
                     <div className="flex items-center relative">
-                      <div className="absolute -ml-5 animate-bounce">😍</div>
+                      <div className="absolute -ml-5">🔥</div>
                       <div className="font-bold ">{page.pageName}</div>
                     </div>
                   </td>

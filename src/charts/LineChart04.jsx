@@ -8,7 +8,7 @@ import { tailwindConfig, formatValue } from "../utils/Utils";
 
 Chart.register(LineController, LineElement, Filler, PointElement, LinearScale, TimeScale, Tooltip);
 
-function LineChart03({ className = '', data, width, height, format = true, title = "RM1,482", perctChange = "-22%" }) {
+function LineChart04({ className = '',cdata, width, height, format = true, title, perctChange = "-22%" }) {
   const canvas = useRef(null);
   const legend = useRef(null);
 
@@ -17,7 +17,7 @@ function LineChart03({ className = '', data, width, height, format = true, title
     // eslint-disable-next-line no-unused-vars
     const chart = new Chart(ctx, {
       type: "line",
-      data: data,
+      data: cdata,
       options: {
         layout: {
           padding: 20,
@@ -122,7 +122,7 @@ function LineChart03({ className = '', data, width, height, format = true, title
     });
     return () => chart.destroy();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [cdata]);
 
   return (
     <React.Fragment>
@@ -130,7 +130,8 @@ function LineChart03({ className = '', data, width, height, format = true, title
         <div className="px-5 py-3">
           <div className="flex flex-wrap justify-between items-end">
             <div className="flex items-start">
-              {/* <div className="text-md font-bold text-slate-600 mr-2">Ranking</div> */}
+              <h3 className="text-sm font-semibold text-slate-400 mr-2">keyword: </h3>
+              <div className="text-lg font-bold text-slate-600 mr-2">{title}</div>
               {/* <div className="text-sm font-semibold text-white px-1.5 bg-yellow-500 rounded-full">{perctChange}</div> */}
             </div>
             <div className="grow ml-2 mb-1">
@@ -147,4 +148,4 @@ function LineChart03({ className = '', data, width, height, format = true, title
   );
 }
 
-export default LineChart03;
+export default LineChart04;

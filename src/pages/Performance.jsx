@@ -24,6 +24,7 @@ import DashboardCard13 from "../partials/dashboard/DashboardCard13";
 import SEOPositionChart from "../partials/dashboard/performance/1.SEOPositionChart";
 import SEOPositionTracking from "../partials/dashboard/performance/1.SEOPositionTracking";
 import SEOTargetKeyword from "../partials/dashboard/performance/1.SEOTargetKeyword";
+import SEOKeywordBoost from "../partials/dashboard/performance/1.SEOKeywordBoost";
 import SEOImprovement from "../partials/dashboard/performance/1.SEOImprovement";
 import PageSpeed from "../partials/dashboard/performance/2.PageSpeed";
 import PageSpeedOverall from "../partials/dashboard/performance/2.PageSpeedOverall";
@@ -77,8 +78,13 @@ function Performance() {
               <SEOPositionChart />
               {/* fwd self SEO ranking */}
               <SEOPositionTracking />
+
               {/* fwd self SEO improvement */}
               <SEOImprovement />
+
+              {/* fwd and other competitor */}
+              <SEOKeywordBoost />
+
               {/* <SEOTargetKeyword /> */}
               <div className="col-span-12">Page Speed Performance</div>
               <PageSpeedOverall title="Overall score" keyNumber="270ms" perctChange="&#8595;19.1%" color="green" />

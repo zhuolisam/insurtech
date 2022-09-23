@@ -33,7 +33,7 @@ function Header({ sidebarOpen, setSidebarOpen }) {
             </button>
             {/* Logo */}
             <div className="font-extrabold text-xl cursor-pointer">
-            <NavLink end to="/performance">
+            <NavLink end to="/">
               All<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Sight</span>
             </NavLink>
             </div>
