@@ -1,8 +1,8 @@
-[![Allsight](src\images\allsight.png)](https://allsight.vercel.app/)
+[![AllSight](src\images\allsight.png)](https://allsight.vercel.app/)
 
 # All-In-One, All-You-Need.
 
-[Allsight](https://allsight.vercel.app/) is a one-stop prescriptive analytics dashboard that unleashes your website's potential to:
+[AllSight](https://allsight.vercel.app/) is a one-stop prescriptive analytics dashboard that unleashes your website's potential to:
 - Get more customers,
 - Get customers to buy more products, and
 - Get customers to refer more customers!
@@ -17,7 +17,7 @@ Our Page Performance tab tells you everything you need to know on how to get mor
 <br>
 
 ### See what happens in this *behind the scenes video* of our technology to get SEO data! <br>
-[![Allsight SEO Scraper](src\images\allsightthumbnail.jpg)](https://www.youtube.com/watch?v=l2k4eF6ufEQ)
+[![AllSight SEO Scraper](src\images\allsightthumbnail.jpg)](https://www.youtube.com/watch?v=l2k4eF6ufEQ)
 
 # User Behaviour
 ![User Behaviour Tab](src\images\traffic.png)
@@ -44,7 +44,7 @@ Referrals are one of the main factors influencing a potential customer's insuran
 
 ## Project setup
 
-Allsight is hosted online here: <br>
+AllSight is hosted online here: <br>
 https://allsight.vercel.app/
 
 Alternatively, you may setup the project on your machine by cloning this repository and running the following commands:
