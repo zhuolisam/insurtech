@@ -175,7 +175,7 @@ function SEOImprovement() {
           suggestedKeyword: "what is insurance",
           volume: "60",
           keywordDifficulty: "35",
-          competitorPosition: "1.5",
+          competitorPosition: "3",
           competitorUrl: "https://www.investopedia.com/terms/i/insurance.asp",
         },
         {
@@ -201,14 +201,14 @@ function SEOImprovement() {
           suggestedKeyword: "what is insurance",
           volume: "60",
           keywordDifficulty: "35",
-          competitorPosition: "1.5",
+          competitorPosition: "3",
           competitorUrl: "https://www.investopedia.com/terms/i/insurance.asp",
         },
         {
           suggestedKeyword: "life assurance",
           volume: "80",
           keywordDifficulty: "26",
-          competitorPosition: "68",
+          competitorPosition: "4",
           competitorUrl: "https://www.greateasternlife.com/my/en/index.html",
         },
       ],
@@ -227,7 +227,7 @@ function SEOImprovement() {
           suggestedKeyword: "what is insurance",
           volume: "60",
           keywordDifficulty: "35",
-          competitorPosition: "1.5",
+          competitorPosition: "3",
           competitorUrl: "https://www.investopedia.com/terms/i/insurance.asp",
         },
         {
@@ -422,16 +422,16 @@ function SEOImprovement() {
                   <div className="font-semibold text-left">Product Keyword</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold tesxt-slate-600 text-indigo-600 text-left ">Suggested Keyword</div>
+                  <div className="font-semibold text-indigo-600">Suggested Keyword</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-left">Volume</div>
+                  <div className="font-semibold text-center">Volume</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-left">Keyword Difficulty</div>
+                  <div className="font-semibold text-center">Keyword Difficulty</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-left">Competitor's Position</div>
+                  <div className="font-semibold text-center">Competitor's Position</div>
                 </th>
                 <th className="p-2">
                   <div className="font-semibold text-left">Competitor's URL</div>
@@ -457,11 +457,6 @@ function SEOImprovement() {
                         <td className="p-2" rowspan={keywordd.suggest.length + 1}>
                           <div className="text-slate-800">{keywordd.name}</div>
                         </td>
-                        <td className="p-2"></td>
-                        <td className="p-2"></td>
-                        <td className="p-2"></td>
-                        <td className="p-2"></td>
-                        <td className="p-2"></td>
                       </tr>
                       {keywordd.suggest.map((item, index) => {
                         return (
@@ -469,13 +464,13 @@ function SEOImprovement() {
                             <td className="p-2">
                               <div className="">{item.suggestedKeyword}</div>
                             </td>
-                            <td className="p-2">
+                            <td className="p-2 text-center">
                               <div className="">{item.volume}</div>
                             </td>
-                            <td className="p-2">
+                            <td className="p-2 text-center">
                               <div className="">{item.keywordDifficulty}</div>
                             </td>
-                            <td className="p-2">
+                            <td className="p-2 text-center">
                               <div className="">{item.competitorPosition}</div>
                             </td>
                             <td className="p-2 max-w-xs text-ellipsis">

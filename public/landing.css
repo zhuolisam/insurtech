@@ -268,10 +268,12 @@ th,
 td {
     padding: 10px 16px;
 }
-th:first-child,
+
+/* th:first-child,
 td:first-child {
     padding-left: 0;
-}
+} */
+
 th:last-child,
 td:last-child {
     padding-right: 0;
