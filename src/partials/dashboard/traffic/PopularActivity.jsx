@@ -35,9 +35,9 @@ function PopularActivity() {
         <div className="text-lg font-bold px-6 underline">Suggestions</div>
         <ul className="text-sm mt-2 pb-6 pr-6 pl-10 list-disc">
           <li className="">Xmas Gifting mission, Lucky Draws are top activity count by users of all ages!</li>
-          <li>Link these activities to product buying!</li>
+          {/* <li>Link these activities to product buying!</li> */}
           <li>Recommend products in those pages.</li>
-          <li>Buy/Redeem these affordable products to unlock different tiers of gifting/mission.</li>
+          {/* <li>Buy/Redeem these affordable products to unlock different tiers of gifting/mission.</li> */}
           <li>Buy product to have more entries in lucky draw.</li>
         </ul>
       </div>

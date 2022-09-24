@@ -41,7 +41,7 @@ function Landing() {
                 <h1 className="font-extrabold text-8xl mb-4 mt-0">
                   All<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Sight</span>
                 </h1>
-                <p className="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+                <p className="hero-paragraph">Drive your sales by taking data analytics into action.</p>
                 <div className="hero-cta">
                   <div className="font-extrabold text-xl cursor-pointer">
                     <NavLink end to="/performance">
@@ -74,35 +74,72 @@ function Landing() {
                   {/* <img className="hero-media-illustration-image asset-dark" src="/images/hero-media-illustration-dark.svg" alt="Hero media illustration" /> */}
                 </div>
                 <div className="hero-media-container">
-                  <img className="hero-media-image" src="/images/127.0.0.1_5173_performance (1).png" alt="Hero media" />
+                  <img className="hero-media-image" src="/images/performance_new.png" alt="Hero media" />
                   {/* <img class="hero-media-image asset-dark" src="/images/hero-media-dark.svg" alt="Hero media"> */}
                 </div>
               </div>
             </div>
           </section>
           {/* Section 2 */}
-          <section className="features section w-full">
+          <section className="features section w-full mt-20">
             <div className="container">
               <div className="features-inner section-inner has-bottom-divider">
                 <div className="text-center">
                   <div className="container-sm">
-                    <h2 className="text-slate-600 font-semibold text-3xl mt-0 mb-2 w-full">Sales Marketing Funnel</h2>
-                    <p className="section-paragraph">A marketing funnel is a series of stages to guide prospects through the customer journey.</p>
+                    <h2 className="text-slate-600 font-semibold text-3xl mt-0 mb-2 w-full">Customer Marketing Funnel</h2>
+                    <p className="section-paragraph">A customer marketing funnel is a series of stages to guide prospects through the customer journey.</p>
                     <div className="features-image">
                       {/* <img className="features-illustration asset-dark" src="/images/features-illustration-dark.svg" alt="Feature illustration" /> */}
                       {/* <img className="features-box asset-dark" src="/images/features-box-dark.svg" alt="Feature box" /> */}
                       {/* <img className="features-illustration asset-dark" src="/images/features-illustration-top-dark.svg" alt="Feature illustration top" /> */}
                       <img className="features-illustration asset-light" src="/images/features-illustration-light.svg" alt="Feature illustration" />
                       <img className="features-box asset-light" src="/images/second-pic.png" alt="Feature box" />
+                      {/* <div className="flex features-wrap pt-10 relative items-center -mt-10">
+                        <img className="w-[90rem] " src="/images/funnel_transparent.png" alt="" />
+                        <div className=" w-[14rem] absolute top-20 -right-40 flex flex-col items-end group">
+                          <NavLink end to="/performance">
+                            <div className="text-lg group-hover:scale-[108%] duration-200 cursor-pointer">Acquire Customers </div>
+                          </NavLink>
+                          <img className="group-hover:scale-[108%] duration-200" src="/images/Line 1.png" alt="" />
+                        </div>
+                        <div className=" w-[18rem] absolute top-[11.5rem] -right-40 flex flex-col items-end group ">
+                          <NavLink end to="/traffic">
+                            <div className="text-lg group-hover:scale-[108%] duration-200 cursor-pointer">Convert Customers </div>
+                          </NavLink>
+                          <img className="group-hover:scale-[108%] duration-200" src="/images/Line 1.png" alt="" />
+                        </div>
+                        <div className=" w-[22rem] absolute top-[17rem] -right-40 flex flex-col items-end group ">
+                          <NavLink end to="/referrals">
+                            <div className="text-lg group-hover:scale-[108%] duration-200 cursor-pointer">Generate Referrals </div>
+                          </NavLink>
+                          <img className="group-hover:scale-[108%] duration-200" src="/images/Line 1.png" alt="" />
+                        </div>
+                      </div> */}
                       <img className="features-illustration asset-light" src="/images/features-illustration-top-light.svg" alt="Feature illustration top" />
                     </div>
                   </div>
 
                   <div className="flex features-wrap pt-10 relative items-center">
-                    <img className="w-[30rem]" src="/images/funnel.png" alt="" />
-                    <div className="absolute top-12 -right-48">Acquire Customers &#8594; </div>
-                    <div className="absolute top-6">Acquire Customers &#8594; </div>
-                    <div className="absolute">Acquire Customers &#8594; </div>
+                    <img className="w-[90rem] " src="/images/funnel_transparent.png" alt="" />
+                    <div className=" w-[14rem] absolute top-20 -right-40 flex flex-col items-end group">
+                      <NavLink end to="/performance">
+                        <div className="text-lg group-hover:scale-[108%] duration-200 cursor-pointer">Acquire Customers </div>
+                      </NavLink>
+                      <img className="group-hover:scale-[108%] duration-200" src="/images/Line 1.png" alt="" />
+                    </div>
+                    <div className=" w-[18rem] absolute top-[11.5rem] -right-40 flex flex-col items-end group ">
+                      <NavLink end to="/behaviour">
+                        <div className="text-lg group-hover:scale-[108%] duration-200 cursor-pointer">Convert Customers </div>
+                      </NavLink>
+                      <img className="group-hover:scale-[108%] duration-200" src="/images/Line 1.png" alt="" />
+                    </div>
+                    <div className=" w-[22rem] absolute top-[17rem] -right-40 flex flex-col items-end group ">
+                      <NavLink end to="/referral">
+                        <div className="text-lg group-hover:scale-[108%] duration-200 cursor-pointer">Generate Referrals </div>
+                      </NavLink>
+                      <img className="group-hover:scale-[108%] duration-200" src="/images/Line 1.png" alt="" />
+                    </div>
+
                     {/* <div className="feature is-revealing">
                       <div className="feature-inner">
                         <div className="feature-icon">

@@ -19,7 +19,7 @@ function SEOImprovement() {
           // Indigo line
           {
             label: "fwd",
-            data: [7, 6, 7, 9, 10, 6, 1],
+            data: [2, 1, 3, 4, 2, 3, 1],
             borderColor: tailwindConfig().theme.colors.indigo[500],
             fill: false,
             borderWidth: 2,
@@ -31,7 +31,7 @@ function SEOImprovement() {
           // Blue line
           {
             label: "aia",
-            data: [3, 5, 4, 3, 4, 4, 5],
+            data: [5, 8, 9, 10, 6, 7, 6],
             borderColor: tailwindConfig().theme.colors.blue[400],
             fill: false,
             borderWidth: 2,
@@ -43,7 +43,7 @@ function SEOImprovement() {
           // Green line
           {
             label: "axa",
-            data: [2, 4, 3, 4, 3, 2, 7],
+            data: [5, 6, 4, 8, 5, 4, 8],
             borderColor: tailwindConfig().theme.colors.green[500],
             fill: false,
             borderWidth: 2,
@@ -54,7 +54,7 @@ function SEOImprovement() {
           },
           {
             label: "great eastern",
-            data: [11, 7, 1, 8, 10, 11, 20],
+            data: [11, 7, 4, 8, 10, 11, 20],
             borderColor: tailwindConfig().theme.colors.orange[500],
             fill: false,
             borderWidth: 2,
@@ -64,13 +64,8 @@ function SEOImprovement() {
             pointBackgroundColor: tailwindConfig().theme.colors.orange[500],
           },
           {
-<<<<<<< HEAD
-            label: "保險hh",
-            data: [8, 7, 3, 4, 19, 14, 22],
-=======
             label: "allianz",
-            data: [10, 5, 3, 7, 10, 13, 16],
->>>>>>> refs/remotes/origin/main
+            data: [10, 5, 4, 7, 10, 13, 16],
             borderColor: tailwindConfig().theme.colors.yellow[500],
             fill: false,
             borderWidth: 2,
@@ -246,61 +241,8 @@ function SEOImprovement() {
     },
   ];
 
-  const [suggestedKeyword, setSuggestedKeyword] = React.useState(FINAL_IMPROVE_DATA.slice(0, 0));
+  const [suggestedKeyword, setSuggestedKeyword] = React.useState(FINAL_IMPROVE_DATA.slice(0, 1));
 
-  // CHART_DATA
-  const FINAL_CHART_DATA = {
-    labels: ["03-01-2022", "04-01-2022", "05-01-2022", "06-01-2022", "07-01-2022", "08-01-2022", "09-01-2022"],
-    datasets: [
-      // Indigo line
-      {
-        label: "fwd",
-        data: [7, 6, 7, 9, 10, 10, 1],
-        borderColor: tailwindConfig().theme.colors.indigo[500],
-        fill: false,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.indigo[500],
-      },
-      // Blue line
-      {
-        label: "omicron病徵",
-        data: [3, 5, 4, 3, 4, 4, 2],
-        borderColor: tailwindConfig().theme.colors.blue[400],
-        fill: false,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.blue[400],
-      },
-      // Green line
-      {
-        label: "omicron 病徵",
-        data: [2, 4, 3, 4, 3, 2, 3],
-        borderColor: tailwindConfig().theme.colors.green[500],
-        fill: false,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.green[500],
-      },
-      {
-        label: "保險",
-        data: [11, 7, 1, 8, 10, 11, 10],
-        borderColor: tailwindConfig().theme.colors.orange[500],
-        fill: false,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.orange[500],
-      },
-    ],
-  };
   const [chartData, setChartData] = React.useState(FINAL_CURRENT_DATA[0].chartData);
 
   //OTHER STATES
