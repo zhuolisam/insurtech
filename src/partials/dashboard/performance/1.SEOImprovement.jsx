@@ -314,7 +314,7 @@ function SEOImprovement() {
     <div className="col-span-full xl:col-span-12 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex items-center gap-3 justify-between pr-16">
         <div className="flex flex-col justify-center">
-          <h2 className="font-semibold text-slate-800">How to Improve Your SEO Rankings?</h2>
+          <h2 className="font-semibold text-slate-800">Improve Your SEO Rankings</h2>
           <span className="text-[10px]">
             See how this works using &#32;{" "}
             <a className="underline" href="https://www.youtube.com/watch?v=l2k4eF6ufEQ" target="_blank" rel="noreferrer">

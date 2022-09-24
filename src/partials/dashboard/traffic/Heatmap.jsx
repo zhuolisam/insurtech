@@ -15,7 +15,7 @@ function Heatmap() {
   return (
     <div className="flex flex-col col-span-full sm:col-span-6  bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex items-center">
-        <h2 className="font-semibold text-slate-800">User behaviour heatmap</h2>
+        <h2 className="font-semibold text-slate-800">User Behaviour Heatmap</h2>
         <Info className="ml-2" containerClassName="min-w-44">
           <div className="text-xs text-center">
             Heatmaps are a great way to see where your users are clicking and scrolling on your website. This can help you understand what your users are interested in and what they are not.
