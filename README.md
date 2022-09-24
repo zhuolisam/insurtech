@@ -1,14 +1,14 @@
-[![Allsight](src/images/allsight.png)](https://allsight.vercel.app/)
+[![AllSight](src\images\allsight.png)](https://allsight.vercel.app/)
 
 # All-In-One, All-You-Need.
 
-[Allsight](https://allsight.vercel.app/) is a one-stop prescriptive analytics dashboard that unleashes your website's potential to:
+[AllSight](https://allsight.vercel.app/) is a one-stop prescriptive analytics dashboard that unleashes your website's potential to:
 - Get more customers,
 - Get customers to buy more products, and
 - Get customers to refer more customers!
 
 # Page Performance
-![Page Performance Tab](src/images/performance.png)
+![Page Performance Tab](src\images\performance.png)
 ## Get More Customers!
 Our Page Performance tab tells you everything you need to know on how to get more customers into your website! <br>
 <li>Know exactly what are the trending keywords in insurance-related searches! 🔥</li>
@@ -17,10 +17,10 @@ Our Page Performance tab tells you everything you need to know on how to get mor
 <br>
 
 ### See what happens in this *behind the scenes video* of our technology to get SEO data! <br>
-[![Allsight SEO Scraper](src/images/allsightthumbnail.jpg)](https://www.youtube.com/watch?v=l2k4eF6ufEQ)
+[![AllSight SEO Scraper](src\images\allsightthumbnail.jpg)](https://www.youtube.com/watch?v=l2k4eF6ufEQ)
 
 # User Behaviour
-![User Behaviour Tab](src/images/traffic.png)
+![User Behaviour Tab](src\images\traffic.png)
 
 
 ## Get Customers to Buy More!
@@ -32,7 +32,7 @@ Understanding your customers is the key to boost sales. The User Behaviour tab p
 <br>
 
 # Referrals
-![Referral Tab](src/images/referral.png)
+![Referral Tab](src\images\referral.png)
 
 ## Get Customers to Refer More Customers!
 
@@ -44,7 +44,7 @@ Referrals are one of the main factors influencing a potential customer's insuran
 
 ## Project setup
 
-Allsight is hosted online here: <br>
+AllSight is hosted online here: <br>
 https://allsight.vercel.app/
 
 Alternatively, you may setup the project on your machine by cloning this repository and running the following commands:
@@ -57,7 +57,8 @@ npm run dev
 <br>
 
 ## About Us
-<img src="src\images\dan.jpeg"  width="250" height="300"> <img src="src\images\sam.jpeg"  width="300" height="300">
+<img src="src\images\dan.jpeg"  width="250" height="300">
+<img src="src\images\sam.jpeg"  width="300" height="300">
 
 We're Dan & Sam! Daniel is currently a Data Analyst in DoctorOnCall, and Sam is an Intern in DoctorOnCall. We have worked together on various Data Analytics projects, spearheading the company's business decision making with prescriptive and descriptive analyses and write-ups based on facts and data. 
 

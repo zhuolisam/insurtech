@@ -19,7 +19,7 @@ function SEOImprovement() {
           // Indigo line
           {
             label: "fwd",
-            data: [7, 6, 7, 9, 10, 10, 1],
+            data: [7, 6, 7, 9, 10, 6, 1],
             borderColor: tailwindConfig().theme.colors.indigo[500],
             fill: false,
             borderWidth: 2,
@@ -30,8 +30,8 @@ function SEOImprovement() {
           },
           // Blue line
           {
-            label: "omicron病徵",
-            data: [3, 5, 4, 3, 4, 4, 2],
+            label: "aia",
+            data: [3, 5, 4, 3, 4, 4, 5],
             borderColor: tailwindConfig().theme.colors.blue[400],
             fill: false,
             borderWidth: 2,
@@ -42,8 +42,8 @@ function SEOImprovement() {
           },
           // Green line
           {
-            label: "omicron 病徵",
-            data: [2, 4, 3, 4, 3, 2, 3],
+            label: "axa",
+            data: [2, 4, 3, 4, 3, 2, 7],
             borderColor: tailwindConfig().theme.colors.green[500],
             fill: false,
             borderWidth: 2,
@@ -53,7 +53,7 @@ function SEOImprovement() {
             pointBackgroundColor: tailwindConfig().theme.colors.green[500],
           },
           {
-            label: "保險",
+            label: "great eastern",
             data: [11, 7, 1, 8, 10, 11, 20],
             borderColor: tailwindConfig().theme.colors.orange[500],
             fill: false,
@@ -64,8 +64,13 @@ function SEOImprovement() {
             pointBackgroundColor: tailwindConfig().theme.colors.orange[500],
           },
           {
+<<<<<<< HEAD
             label: "保險hh",
             data: [8, 7, 3, 4, 19, 14, 22],
+=======
+            label: "allianz",
+            data: [10, 5, 3, 7, 10, 13, 16],
+>>>>>>> refs/remotes/origin/main
             borderColor: tailwindConfig().theme.colors.yellow[500],
             fill: false,
             borderWidth: 2,
@@ -98,8 +103,8 @@ function SEOImprovement() {
           },
           // Blue line
           {
-            label: "omicron病徵",
-            data: [3, 5, 4, 3, 4, 4, 2],
+            label: "aia",
+            data: [3, 5, 4, 3, 4, 4, 5],
             borderColor: tailwindConfig().theme.colors.blue[400],
             fill: false,
             borderWidth: 2,
@@ -110,7 +115,7 @@ function SEOImprovement() {
           },
           // Green line
           {
-            label: "omicron 病徵",
+            label: "axa",
             data: [2, 4, 3, 4, 3, 2, 3],
             borderColor: tailwindConfig().theme.colors.green[500],
             fill: false,
@@ -121,7 +126,7 @@ function SEOImprovement() {
             pointBackgroundColor: tailwindConfig().theme.colors.green[500],
           },
           {
-            label: "保險",
+            label: "great eastern",
             data: [11, 7, 1, 8, 10, 11, 20],
             borderColor: tailwindConfig().theme.colors.orange[500],
             fill: false,
@@ -130,6 +135,17 @@ function SEOImprovement() {
             pointRadius: 0,
             pointHoverRadius: 3,
             pointBackgroundColor: tailwindConfig().theme.colors.orange[500],
+          },
+          {
+            label: "allianz",
+            data: [10, 5, 3, 7, 10, 13, 16],
+            borderColor: tailwindConfig().theme.colors.yellow[500],
+            fill: false,
+            borderWidth: 2,
+            tension: 0,
+            pointRadius: 0,
+            pointHoverRadius: 3,
+            pointBackgroundColor: tailwindConfig().theme.colors.yellow[500],
           },
         ],
       },
@@ -161,23 +177,49 @@ function SEOImprovement() {
           competitorUrl: "https://www.prudential.com.my/en/",
         },
         {
-          suggestedKeyword: "policy of insurance",
-          volume: "40",
-          keywordDifficulty: "27",
-          competitorPosition: "2",
-          competitorUrl: "https://www.prudential.com.my/en/",
+          suggestedKeyword: "what is insurance",
+          volume: "60",
+          keywordDifficulty: "35",
+          competitorPosition: "1.5",
+          competitorUrl: "https://www.investopedia.com/terms/i/insurance.asp",
         },
         {
-          suggestedKeyword: "policy of insurance",
-          volume: "40",
-          keywordDifficulty: "27",
-          competitorPosition: "2",
-          competitorUrl: "https://www.prudential.com.my/en/",
+          suggestedKeyword: "life term insurance",
+          volume: "350",
+          keywordDifficulty: "6",
+          competitorPosition: "1",
+          competitorUrl: "https://ringgitplus.com/en/term-life-insurance/",
         },
       ],
     },
     {
       name: "life insurance",
+      suggest: [
+        {
+          suggestedKeyword: "insurance company",
+          volume: "150",
+          keywordDifficulty: "24",
+          competitorPosition: "1",
+          competitorUrl: "https://www.etiqa.com.my/v2/homepage",
+        },
+        {
+          suggestedKeyword: "what is insurance",
+          volume: "60",
+          keywordDifficulty: "35",
+          competitorPosition: "1.5",
+          competitorUrl: "https://www.investopedia.com/terms/i/insurance.asp",
+        },
+        {
+          suggestedKeyword: "life assurance",
+          volume: "80",
+          keywordDifficulty: "26",
+          competitorPosition: "68",
+          competitorUrl: "https://www.greateasternlife.com/my/en/index.html",
+        },
+      ],
+    },
+    {
+      name: "medical protection",
       suggest: [
         {
           suggestedKeyword: "policy of insurance",
@@ -187,18 +229,18 @@ function SEOImprovement() {
           competitorUrl: "https://www.prudential.com.my/en/",
         },
         {
-          suggestedKeyword: "policy of insurance",
-          volume: "40",
-          keywordDifficulty: "27",
-          competitorPosition: "2",
-          competitorUrl: "https://www.prudential.com.my/en/",
+          suggestedKeyword: "what is insurance",
+          volume: "60",
+          keywordDifficulty: "35",
+          competitorPosition: "1.5",
+          competitorUrl: "https://www.investopedia.com/terms/i/insurance.asp",
         },
         {
-          suggestedKeyword: "policy of insurance",
-          volume: "40",
-          keywordDifficulty: "27",
-          competitorPosition: "2",
-          competitorUrl: "https://www.prudential.com.my/en/",
+          suggestedKeyword: "life term insurance",
+          volume: "350",
+          keywordDifficulty: "6",
+          competitorPosition: "1",
+          competitorUrl: "https://ringgitplus.com/en/term-life-insurance/",
         },
       ],
     },
